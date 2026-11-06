@@ -1,0 +1,26 @@
+name: Auto Commit 24H
+
+on:
+  schedule:
+    # Berjalan otomatis setiap hari jam 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Jalankan manual dari tab Actions jika dibutuhkan
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update Timestamp File
+        run: |
+          echo "Last active: $(date)" > LAST_UPDATED.txt
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add LAST_UPDATED.txt
+          git commit -m "chore: auto update profile activity [skip ci]" || exit 0
+          git push
