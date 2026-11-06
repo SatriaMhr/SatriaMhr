@@ -1,0 +1,34 @@
+name: Cetak struk GitHub
+
+on:
+  schedule:
+    - cron: "0 17 * * *"   # tiap hari, 00:00 WIB
+  workflow_dispatch:        # bisa dijalankan manual
+
+permissions:
+  contents: write
+
+jobs:
+  receipt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cetak struk
+        run: node scripts/receipt.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          DISPLAY_NAME: Satria Mahardika
+
+      - name: Commit kalau ada perubahan
+        run: |
+          git config user.name "receipt-bot"
+          git config user.email "receipt-bot@users.noreply.github.com"
+          git add receipt.svg
+          git diff --cached --quiet || (git commit -m "chore: cetak struk baru" && git push)

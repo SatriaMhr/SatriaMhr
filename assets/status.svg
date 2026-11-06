@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="112" viewBox="0 0 900 112" role="img" aria-label="Status Satria">
+<title>Status</title>
+<style>
+.s{opacity:0;animation:show 16s ease-in-out infinite;animation-fill-mode:backwards}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}
+.eq{transform-box:fill-box;transform-origin:center bottom;animation:eq 1.2s ease-in-out infinite alternate}
+.run{animation:rn 8s linear infinite}
+@keyframes show{0%{opacity:0;transform:translateY(10px)}4%,23%{opacity:1;transform:none}27%,100%{opacity:0;transform:translateY(-10px)}}
+@keyframes ring{0%{transform:scale(1);opacity:.6}100%{transform:scale(2.8);opacity:0}}
+@keyframes eq{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
+@keyframes rn{to{stroke-dashoffset:-100}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<rect x="1" y="1" width="898" height="110" rx="14" fill="#221f1c" stroke="#3b3631"/>
+<rect class="run" x="1" y="1" width="898" height="110" rx="14" fill="none" stroke="#d08a5f" stroke-width="1.6" pathLength="100" stroke-dasharray="10 90"/>
+<circle class="ring" cx="64" cy="54" r="7" fill="#9db491"/>
+<circle cx="64" cy="54" r="7" fill="#9db491"/>
+<text x="64" y="92" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="10" letter-spacing="2" fill="#7a7367">ONLINE</text>
+<line x1="108" y1="24" x2="108" y2="88" stroke="#3b3631"/>
+<g class="s" style="animation-delay:0s"><text x="132" y="46" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" letter-spacing="3" font-weight="700" fill="#d08a5f">LAGI NGERJAIN</text><text x="132" y="78" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#ece6da">Tugas kuliah &amp; project web kecil-kecilan</text></g><g class="s" style="animation-delay:4s"><text x="132" y="46" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" letter-spacing="3" font-weight="700" fill="#d08a5f">LAGI BELAJAR</text><text x="132" y="78" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#ece6da">C++ dan Java, pelan-pelan tapi pasti</text></g><g class="s" style="animation-delay:8s"><text x="132" y="46" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" letter-spacing="3" font-weight="700" fill="#d08a5f">LAGI NGULIK</text><text x="132" y="78" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#ece6da">JavaScript, React, dan ngurus server</text></g><g class="s" style="animation-delay:12s"><text x="132" y="46" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="11" letter-spacing="3" font-weight="700" fill="#d08a5f">BAHAN BAKAR</text><text x="132" y="78" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#ece6da">Kopi, begadang, dan rasa penasaran</text></g><rect class="eq" x="800" y="34" width="7" height="40" rx="3.5" fill="#9db491" fill-opacity=".85" style="animation-delay:0.0s"/><rect class="eq" x="814" y="34" width="7" height="40" rx="3.5" fill="#9db491" fill-opacity=".85" style="animation-delay:0.2s"/><rect class="eq" x="828" y="34" width="7" height="40" rx="3.5" fill="#9db491" fill-opacity=".85" style="animation-delay:0.4s"/><rect class="eq" x="842" y="34" width="7" height="40" rx="3.5" fill="#9db491" fill-opacity=".85" style="animation-delay:0.6000000000000001s"/><rect class="eq" x="856" y="34" width="7" height="40" rx="3.5" fill="#9db491" fill-opacity=".85" style="animation-delay:0.8s"/>
+</svg>

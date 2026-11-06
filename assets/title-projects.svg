@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="84" viewBox="0 0 900 84" role="img" aria-label="Yang lagi &amp; pernah kukerjakan">
+<title>Yang lagi &amp; pernah kukerjakan</title>
+<style>
+.u{transform-box:fill-box;transform-origin:center;animation:bar 5s ease-in-out infinite}
+.a{opacity:0;animation:up .9s ease-out .1s forwards}
+.b{opacity:0;animation:up .9s ease-out .35s forwards}
+@keyframes bar{0%,100%{transform:scaleX(.3)}50%{transform:scaleX(1)}}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<text class="a" x="450" y="18" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12" letter-spacing="5" fill="#8a8173">// 02</text>
+<text class="b" x="450" y="56" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#c0623a">Yang lagi &amp; pernah kukerjakan</text>
+<rect class="u" x="410" y="69" width="80" height="2.5" rx="1.25" fill="#c0623a"/>
+</svg>

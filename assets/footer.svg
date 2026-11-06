@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="170" viewBox="0 0 900 170" role="img" aria-label="Terima kasih sudah mampir">
+<title>Terima kasih sudah mampir</title>
+<defs><clipPath id="cp"><rect width="900" height="170" rx="16"/></clipPath></defs>
+<style>
+.w1{animation:m1 10s linear infinite} .w2{animation:m2 15s linear infinite} .w3{animation:m1 22s linear infinite}
+.t{opacity:0;animation:up 1s ease-out .2s forwards}
+.g{font-family:'Cascadia Code', Consolas, 'Courier New', monospace;font-size:16px;fill:#a39b8d;opacity:0;animation:fl 9s ease-in-out infinite}
+@keyframes m1{to{transform:translateX(-900px)}}
+@keyframes m2{from{transform:translateX(-900px)}to{transform:translateX(0)}}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes fl{0%{transform:translateY(30px);opacity:0}30%{opacity:.4}100%{transform:translateY(-50px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<g clip-path="url(#cp)">
+<rect width="900" height="170" fill="#221f1c"/>
+<text class="g" x="80" y="120" style="animation-delay:0s">{ }</text>
+<text class="g" x="240" y="130" style="animation-delay:2.5s">;</text>
+<text class="g" x="650" y="125" style="animation-delay:4s">&lt;/&gt;</text>
+<text class="g" x="810" y="118" style="animation-delay:6s">=&gt;</text>
+<text class="t" x="450" y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#ece6da">Makasih udah mampir.</text>
+<text class="t" x="450" y="90" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12.5" letter-spacing="2" fill="#a39b8d" style="animation-delay:.5s">semoga harimu bug-free</text>
+<path class="w3" d="M0,128 Q112.5,118 225,128 T450,128 T675,128 T900,128 T1125,128 T1350,128 T1575,128 T1800,128 V170 H0 Z" fill="#8ea6bd" fill-opacity=".14"/>
+<path class="w2" d="M0,138 Q112.5,124 225,138 T450,138 T675,138 T900,138 T1125,138 T1350,138 T1575,138 T1800,138 V170 H0 Z" fill="#d3b06a" fill-opacity=".16"/>
+<path class="w1" d="M0,148 Q112.5,136 225,148 T450,148 T675,148 T900,148 T1125,148 T1350,148 T1575,148 T1800,148 V170 H0 Z" fill="#d08a5f" fill-opacity=".22"/>
+</g>
+<rect x=".5" y=".5" width="899" height="169" rx="16" fill="none" stroke="#3b3631"/>
+</svg>

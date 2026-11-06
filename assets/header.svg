@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Satria Mahardika">
+<title>Satria Mahardika</title>
+<defs><clipPath id="card"><rect width="900" height="260" rx="16"/></clipPath></defs>
+<style>
+.glyph{font-family:'Cascadia Code', Consolas, 'Courier New', monospace;font-size:19px;fill:#a39b8d;opacity:0;animation:float 10s ease-in-out infinite}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 9s ease-out infinite;opacity:0}
+.line{transform-box:fill-box;transform-origin:left center;animation:draw 7s ease-in-out infinite}
+.i1{opacity:0;animation:rise 1s ease-out .2s forwards}
+.i2{opacity:0;animation:rise 1s ease-out .5s forwards}
+.i3{opacity:0;animation:rise 1s ease-out .9s forwards}
+@keyframes float{0%{transform:translateY(20px);opacity:0}30%{opacity:.45}70%{opacity:.3}100%{transform:translateY(-36px);opacity:0}}
+@keyframes ring{0%{transform:scale(1);opacity:.7}100%{transform:scale(7);opacity:0}}
+@keyframes draw{0%{transform:scaleX(0)}35%,75%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){.glyph,.ring,.line{animation:none}.glyph{opacity:.3}.i1,.i2,.i3{animation:none;opacity:1}}
+</style>
+<g clip-path="url(#card)">
+<rect width="900" height="260" fill="#221f1c"/>
+<circle class="ring" cx="450" cy="130" r="60" fill="none" stroke="#5a5249" stroke-width="1.2" style="animation-delay:0s"/><circle class="ring" cx="450" cy="130" r="60" fill="none" stroke="#5a5249" stroke-width="1.2" style="animation-delay:3s"/><circle class="ring" cx="450" cy="130" r="60" fill="none" stroke="#5a5249" stroke-width="1.2" style="animation-delay:6s"/>
+<text class="glyph" x="60" y="200" style="animation-delay:0s">{ }</text><text class="glyph" x="130" y="238" style="animation-delay:2.4s">&lt;/&gt;</text><text class="glyph" x="190" y="168" style="animation-delay:4.8s">;</text><text class="glyph" x="700" y="168" style="animation-delay:1.4s">=&gt;</text><text class="glyph" x="765" y="238" style="animation-delay:3.7s">C++</text><text class="glyph" x="835" y="198" style="animation-delay:6.0s">npm</text><text class="glyph" x="62" y="108" style="animation-delay:7.3s">01</text><text class="glyph" x="835" y="102" style="animation-delay:5.2s">( )</text>
+<text class="i1" x="450" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="20" fill="#a39b8d">Halo, aku</text>
+<text class="i2" x="450" y="122" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="#ece6da">Satria Mahardika</text>
+<rect class="line" x="330" y="140" width="240" height="2.5" rx="1.25" fill="#d08a5f"/>
+<text class="i3" x="450" y="178" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#c9c1b3">Mahasiswa Teknik Informatika · Universitas Pancasila</text>
+<text class="i3" x="450" y="206" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12.5" letter-spacing="2" fill="#7a7367">javascript · c++ · java · web development</text>
+</g>
+<rect x=".5" y=".5" width="899" height="259" rx="16" fill="none" stroke="#3b3631"/>
+</svg>

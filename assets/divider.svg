@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="28" viewBox="0 0 900 28" role="presentation">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#8a8173" stop-opacity="0"/><stop offset=".5" stop-color="#8a8173" stop-opacity=".55"/><stop offset="1" stop-color="#8a8173" stop-opacity="0"/></linearGradient></defs>
+<style>
+.dot{animation:run 7s ease-in-out infinite alternate}
+.dia{transform-box:fill-box;transform-origin:center;animation:pulse 3s ease-in-out infinite}
+@keyframes run{from{transform:translateX(0)}to{transform:translateX(780px)}}
+@keyframes pulse{0%,100%{transform:rotate(45deg) scale(1);opacity:.75}50%{transform:rotate(45deg) scale(1.4);opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<rect x="0" y="13" width="900" height="1.5" fill="url(#l)"/>
+<g class="dot"><circle cx="60" cy="14" r="3" fill="#c0623a"/></g>
+<rect class="dia" x="446" y="10" width="8" height="8" fill="#c0623a"/>
+</svg>

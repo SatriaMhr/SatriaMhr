@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="116" viewBox="0 0 880 116" role="img" aria-label="NAMA_BOT_ATAU_PROJECT_KAMU">
+<title>NAMA_BOT_ATAU_PROJECT_KAMU</title>
+<style>
+.c{opacity:0;animation:in .8s ease-out 0.8s forwards}
+.run{animation:rn 8s linear infinite}
+.ar{animation:nudge 1.8s ease-in-out infinite}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes rn{to{stroke-dashoffset:-100}}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
+<g class="c">
+<rect x="1" y="1" width="878" height="114" rx="12" fill="#221f1c" stroke="#3b3631"/>
+<rect class="run" x="1" y="1" width="878" height="114" rx="12" fill="none" stroke="#9db491" stroke-width="1.6" pathLength="100" stroke-dasharray="10 90"/>
+<rect x="1" y="26" width="4" height="64" rx="2" fill="#9db491"/>
+<text x="32" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" fill="#ece6da">NAMA_BOT_ATAU_PROJECT_KAMU</text>
+<text x="32" y="70" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#a39b8d">[Ganti: satu kalimat tentang bot atau project komunitas yang paling kamu banggakan]</text>
+<text x="32" y="96" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="12" letter-spacing="1" fill="#9db491">NODE.JS  /  DISCORD.JS</text>
+<rect x="734" y="22" width="80" height="26" rx="13" fill="#9db491" fill-opacity=".12" stroke="#9db491" stroke-opacity=".45"/>
+<text x="774" y="39.5" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#9db491">Node.js</text>
+<g class="ar"><text x="836" y="78" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#7a7367">&#8594;</text></g>
+</g></svg>
