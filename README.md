@@ -44,7 +44,7 @@ Saya mahasiswa **Teknik Informatika Universitas Pancasila** yang tertarik di bid
 ### 📈 Activity Timeline
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SatriaMhr&theme=tokyo-night&bg_color=0f172a&color=00ff66&line=00ff66&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SatriaMhr&theme=tokyo-night&bg_color=0f172a&color=00ff66&line=00ff66&point=ffffff&area=true&hide_border=true" width="100%" alt="Satria's Activity Graph" />
 </div>
 
 ---
