@@ -46,6 +46,8 @@ Isinya aktivitas 30 hari terakhir, jadi selalu berubah.</sub>
 
 <br><br>
 
+<img src="https://komarev.com/ghpvc/?username=SatriaMhr&label=Total%20pengunjung&color=d08a5f&labelColor=221f1c&style=flat-square" alt="Total pengunjung profil">
+
 <img src="./assets/footer.svg" alt="Makasih udah mampir" width="100%">
 
 </div>
